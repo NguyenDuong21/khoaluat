@@ -1,0 +1,3 @@
+[Sun, 10 Oct 2021 16:05:20 +0700] [localhost] [::1] [Notice(8): A session had already been started - ignoring session_start()] [FILE: /includes/core/admin_login.php] [LINE: 10]
+[Sun, 10 Oct 2021 16:06:29 +0700] [localhost] [::1] [Notice(8): Use of undefined constant NV_STATIC_URL - assumed 'NV_STATIC_URL'] [FILE: /modules/laws/blocks/global.block_new_law.php] [LINE: 140]
+[Sun, 10 Oct 2021 16:06:35 +0700] [localhost] [::1] [Notice(8): A session had already been started - ignoring session_start()] [FILE: /modules/music/funcs/managetype.php] [LINE: 10]

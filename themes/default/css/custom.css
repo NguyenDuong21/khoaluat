@@ -1,0 +1,180 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC <contact@vinades.vn>
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 31/05/2010, 00:36
+ */
+
+/* Các tùy chỉnh CSS của giao diện nên để vào đây */
+#header .logo{
+    padding: 0;
+}
+#menusite .navbar-default{
+    background-color: #a63138;
+    border-bottom-color: #a63138;
+    border-radius: 3px;
+}
+#header{
+    display: block;
+}
+#menusite .navbar-default .navbar-nav > li > a:hover, #menusite .navbar-default .navbar-nav > li > a:focus, #menusite .navbar-default .navbar-nav > .active > a, #menusite .navbar-default .navbar-nav > .active > a:hover, #menusite .navbar-default .navbar-nav > .active > a:focus, #menusite .navbar-default .navbar-nav > .open > a, #menusite .navbar-default .navbar-nav > .open > a:hover, #menusite .navbar-default .navbar-nav > .open > a:focus{
+    background: linear-gradient(to bottom,#e7313e 0%,#520208 100%) !important;
+    color: #fff;
+}
+#menusite .navbar-default .navbar-nav > li > a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#banner-slide{
+        height: 378.022px;
+        max-width: 728px;
+        position: relative;
+}
+li.bjqs-slide a>img{
+    width: 100%;
+    height: 100%;
+}
+.panel-heading{
+    font-family: Arial;
+    background-color: #af213c !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    padding: 5px 10px !important;
+    line-height: 2.5em;
+    border-radius: 3px 3px 0px 0px;
+    text-transform: uppercase;
+}
+.panel-body{
+    padding-top:0;
+}
+#news{
+    margin-top: 10px;
+}
+/* #body > div:nth-child(2) > div.col-sm-8.col-md-8 > div:nth-child(3) > div.panel-heading,#body > div:nth-child(2) > div.col-sm-8.col-md-8 > div:nth-child(2) > div.panel-heading{
+    display:none;
+} */
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs>li.active>a {
+    background-color: #AF213C!important;
+    color: #FFF !important;
+}
+.nav-tabs>li>a {
+    border-radius: 0;
+    font-weight: bold;
+    color: #222;
+    transition: background-color 0.1s ease;
+}
+.nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+    text-decoration: none;
+    background-color: #AF213C !important;
+    color: #fff;
+}
+.image-right-menu {
+    width: 30%;
+    float: left;
+}
+.link-right-menu {
+    width: 70%;
+    float: right;
+    padding-left: 2%;
+}
+.list-right-menu {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+.chitiet a {
+    /* background-color: #2560C7; */
+    color: #a63138;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.chitiet {
+    text-align: right;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 3px;
+    width: 100%;
+}
+.on-main-layout {
+    width: 100%;
+    background: #FFF;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.on-left-main-layout {
+    width: 22%;
+    padding: 5px;
+    float: left;
+    display: block;
+}
+.on-right-main-layout {
+    width: 75%;
+    padding: 5px;
+    float: left;
+}
+.in-main-layout {
+    background: #FFF;
+    padding: 2px;
+    display: block;
+}
+.calendar {
+    font-size: 12px;
+    color: #888;
+    padding: 3px;
+}
+.continue-read {
+    color: #a63138 !important;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.on-main-layout a:hover,.on-main-layout a:focus {
+    color: #3169b1 !important;
+    text-decoration: none;
+}
+.name-layout {
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+}
+.on-main-layout .name-layout:hover {
+    color: #045BBB;
+}
+#goc-anh {
+    padding: 20px;
+}
+#footer {
+    min-height: 130px !important;
+    background-color: #AF2843;
+    margin-top: 4px;
+    color: #f2f2f2;
+    padding: 20px;
+    border-top: 5px solid #e03c5d;
+}
+.fix_banner_right {
+    width:120px;
+    height:480px;
+    position:fixed;
+    top:50% !important;
+    right: 0px !important;
+}
+#luotxem_trangchu {
+
+    background: #A63138;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}

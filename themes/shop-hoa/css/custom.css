@@ -1,0 +1,23 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC <contact@vinades.vn>
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 31/05/2010, 00:36
+ */
+
+/* Các tùy chỉnh CSS của giao diện nên để vào đây */
+#menu-site-default{
+    background-color: #a63138;
+}
+#menusite .navbar-default .navbar-nav > li > a:hover,
+#menusite .navbar-default .navbar-nav > li > a:focus,
+#menusite .navbar-default .navbar-nav > .active > a,
+#menusite .navbar-default .navbar-nav > .active > a:hover,
+#menusite .navbar-default .navbar-nav > .active > a:focus,
+#menusite .navbar-default .navbar-nav > .open > a,
+#menusite .navbar-default .navbar-nav > .open > a:hover,
+#menusite .navbar-default .navbar-nav > .open > a:focus{
+    background:#981428 !important;
+    color: #fff;
+}

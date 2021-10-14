@@ -1,0 +1,58 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC <contact@vinades.vn>
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 31/05/2010, 00:36
+ */
+
+/* Các tùy chỉnh CSS của giao diện nên để vào đây */
+.marquee1 {
+    width: 100%; /* the plugin works for responsive layouts so width is not necessary */
+    overflow: hidden;
+  }
+  .panel-default>.panel-heading{
+      display:none;
+  }
+.owl-carousel .nav-btn{
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 55px !important;
+}
+.carousel-wrap{
+    width: 95%;
+    margin: 0 auto;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+pointer-events: none;
+opacity: 0.2;
+}
+
+.owl-carousel .prev-slide{
+    font-size: 50px;
+  left: -25px;
+}
+.owl-carousel .next-slide{
+    font-size: 50px;
+  right: -25px;
+}
+.owl-carousel .prev-slide:hover{
+ background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover{
+background-position: -24px -53px;
+} 
+
+@media only screen and (max-width: 992px) {
+  #bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #left_bottom{
+      order:2;
+  }
+  
+}
