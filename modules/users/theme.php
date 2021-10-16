@@ -273,11 +273,8 @@ function user_login($is_ajax = false)
     global $module_info, $global_config, $lang_global, $lang_module, $module_name, $op, $nv_header, $nv_redirect;
 
     if ($is_ajax) {
-        echo 1;
-        exit();
         $xtpl = new XTemplate('ajax_login.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/users');
     } else {
-        echo 2;
         $xtpl = new XTemplate('login.tpl', NV_ROOTDIR . '/themes/' . $module_info['template'] . '/modules/users');
     }
 

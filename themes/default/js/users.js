@@ -230,7 +230,7 @@ function login_validForm(a) {
                     }else{
                          $('#sitemodal').modal('hide');
                         //  window.location.href = window.location.href;
-                         window.location.href = "./index.php?language=vi&nv=music&op=managetype";
+                         window.location.href = "./index.php?language=vi&nv=nghenhac&op=managetype";
 
                     }
                 }, 3E3)
