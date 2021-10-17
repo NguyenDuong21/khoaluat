@@ -1,6 +1,6 @@
 <!-- BEGIN: main -->
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<link rel="stylesheet" type="text/css" media="screen" href="{NV_BASE_SITEURL}themes/{BLOCK_THEME}/css/music.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="{NV_BASE_SITEURL}themes/{BLOCK_THEME}/css/nghenhac.css" />
      <div class="container">
         <div class="puzzle">
             <div class="word">
@@ -13,23 +13,6 @@
             </div>
             <div class="word">
                 <span class="letter"></span>
-                <span class="letter"></span>
-                <span class="letter pivot"></span>
-                <span class="letter"></span>
-                <span class="letter"></span>
-                <span class="letter"></span>
-                <span class="letter"></span>
-                <span class="letter"></span>
-            </div>
-            <div class="word">
-                <span class="letter"></span>
-                <span class="letter"></span>
-                <span class="letter"></span>
-                <span class="letter"></span>
-                <span class="letter pivot"></span>
-                <span class="letter"></span>
-            </div>
-            <div class="word">
                 <span class="letter pivot"></span>
                 <span class="letter"></span>
                 <span class="letter"></span>
@@ -43,22 +26,25 @@
                 <span class="letter pivot"></span>
                 <span class="letter"></span>
                 <span class="letter"></span>
-            </div>
-            <div class="word">
                 <span class="letter"></span>
-                <span class="letter"></span>
-                <span class="letter pivot"></span>
                 <span class="letter"></span>
                 <span class="letter"></span>
                 <span class="letter"></span>
             </div>
             <div class="word">
+                <span class="letter pivot"></span>
                 <span class="letter"></span>
                 <span class="letter"></span>
+                <span class="letter"></span>
+                <span class="letter"></span>
+            </div>
+            <div class="word">
                 <span class="letter"></span>
                 <span class="letter"></span>
                 <span class="letter"></span>
                 <span class="letter pivot"></span>
+                <span class="letter"></span>
+                <span class="letter"></span>
             </div>
             <div class="word">
                 <span class="letter"></span>
@@ -66,6 +52,20 @@
                 <span class="letter"></span>
                 <span class="letter"></span>
                 <span class="letter"></span>
+                <span class="letter"></span>
+                <span class="letter"></span>
+                <span class="letter"></span>
+            </div>
+            <div class="word">
+                <span class="letter"></span>
+                <span class="letter"></span>
+                <span class="letter"></span>
+                <span class="letter pivot"></span>
+                <span class="letter"></span>
+            </div>
+            <div class="word">
+                <span class="letter"></span>
+                <span class="letter pivot"></span>
                 <span class="letter"></span>
             </div>
         </div>

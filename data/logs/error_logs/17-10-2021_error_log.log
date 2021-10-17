@@ -1,0 +1,15 @@
+[Sun, 17 Oct 2021 15:41:21 +0700] [localhost] [::1] [Notice(8): A session had already been started - ignoring session_start()] [FILE: /modules/nghenhac/funcs/managetype.php] [LINE: 10]
+[Sun, 17 Oct 2021 15:41:24 +0700] [localhost] [::1] [Notice(8): A session had already been started - ignoring session_start()] [FILE: /modules/users/funcs/main.php] [LINE: 10]
+[Sun, 17 Oct 2021 15:41:38 +0700] [localhost] [::1] [Notice(8): A session had already been started - ignoring session_start()] [FILE: /includes/core/admin_login.php] [LINE: 10]
+[Sun, 17 Oct 2021 15:42:13 +0700] [localhost] [::1] [Notice(8): Undefined variable: rowcontent] [FILE: /modules/nghenhac/admin/manage_type.php] [LINE: 15]
+[Sun, 17 Oct 2021 15:42:13 +0700] [localhost] [::1] [Notice(8): Undefined variable: copy] [FILE: /modules/nghenhac/admin/manage_type.php] [LINE: 16]
+[Sun, 17 Oct 2021 15:43:21 +0700] [localhost] [::1] [Notice(8): Use of undefined constant NV_STATIC_URL - assumed 'NV_STATIC_URL'] [FILE: /modules/laws/blocks/global.block_new_law.php] [LINE: 140]
+[Sun, 17 Oct 2021 15:45:22 +0700] [localhost] [::1] [Notice(8): Undefined variable: rowcontent] [FILE: /modules/nghenhac/funcs/main.php] [LINE: 16]
+[Sun, 17 Oct 2021 15:45:22 +0700] [localhost] [::1] [Notice(8): Undefined variable: copy] [FILE: /modules/nghenhac/funcs/main.php] [LINE: 17]
+[Sun, 17 Oct 2021 15:45:22 +0700] [localhost] [::1] [Error(1): Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nukeviet.nv4_vi_music_cats' doesn't exist' in C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php:495
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php(495): PDO->query('SELECT * FROM n...')
+#1 C:\xampp\htdocs\nukeviet\modules\nghenhac\funcs\main.php(26): NukeViet\Core\Database->query('SELECT * FROM n...')
+#2 C:\xampp\htdocs\nukeviet\index.php(343): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 495]

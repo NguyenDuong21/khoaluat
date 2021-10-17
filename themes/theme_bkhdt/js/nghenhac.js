@@ -121,7 +121,14 @@ $(document).ready(function(){
                 }, 1000);
                 timeout = setTimeout(() => { 
                     clearInterval(changeTime);
-                    answer_question(curent_row);
+                    $.ajax({
+                        url:window.location.href,
+                        method:"post",
+                        dataType:"json",
+                        data:{"action":"get_result", "id":curent_id}
+                    }).done(function(res){
+                        answer_question(curent_row,res['answer']);
+                    });
                 }, time_rest * 1000);
             } else {
                 Toast.fire({
